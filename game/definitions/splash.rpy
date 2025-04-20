@@ -23,15 +23,15 @@ init -100 python:
 ## Splash Message
 # This python statement is where the splash messages reside in.
 init python:
-    # This variable is the default splash message that people will see when
-    # the game launches.
-    splash_message_default = "This game is an unofficial fan game that is unaffiliated with Team Salvato."
-    # This array variable stores different kinds of splash messages you can use
-    # to show to the player on startup.
     splash_messages = [
         "Please support Doki Doki Literature Club.",
-        "Monika is watching you code."
+        "Monika is watching you code.",
+        "mama mia",
+        "Let's dashin' !",
+        "En lançant cette partie, tu t'es mis tout seul dans la merde..."
     ]
+    splash_message_default = renpy.random.choice(splash_messages)
+
 
     ### New in 3.0.0
     ## This recolor function allows you to recolor the GUI of DDLC easily without replacing
