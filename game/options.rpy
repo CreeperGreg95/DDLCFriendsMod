@@ -165,7 +165,7 @@ init python:
 
     # Do not touch these lines. This is so Ren'Py can add your mods' py file
     # and a special launcher for Linux and macOS to run your mod. 
-    build.renpy_patterns.remove(('renpy.py', ['all']))
+    # build.renpy_patterns.remove(('renpy.py', ['all']))
     build.classify_renpy("renpy.py", "renpy all")
     
     build.early_base_patterns.remove(('*.sh', None))

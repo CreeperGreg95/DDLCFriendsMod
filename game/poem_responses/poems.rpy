@@ -763,7 +763,7 @@ style poem_vscrollbar:
     bar_invert True
 
 style poem_paper:
-    modal True
+    # modal True
     align (0.5, 0.5)
 
 style poem_fixed:
